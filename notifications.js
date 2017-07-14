@@ -117,10 +117,7 @@ class Notify {
             dir: 'ltr'});
 
         setTimeout(notify.close.bind(notify), 5000);
-        notify.onclick = function(event) {
-            event.preventDefault(); // prevent the browser from focusing the Notification's tab
-            window.open(objNoty.url, '_blank');
-        }
+        notify.onclick = args.onclick;
     }
 
     show(args) {
