@@ -19,7 +19,7 @@ var notificacion2 = {
 };
 
 
-var n = new Notify({style:'notify',position: 'top-right'});
+var n = new Notify({style:'default',position: 'top-right'});
 
 function click(){
     n.create(notificacion);
