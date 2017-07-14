@@ -1,0 +1,98 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css);
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.icon-cross:before {
+    content: "\ea0f";
+}
+
+a.linkNoty, a.linkNoty:visited {
+    color: #2c3e50 !important;
+    text-decoration: none;
+}
+.relative{position: relative;}
+
+.closeNotify {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: #34495e;
+    width: 8px;
+    height: 8px;
+}
+
+.closeNotify:hover{
+    width: 10px;
+    height: 10px;
+}
+.notify {
+    display: block;
+    width: 375px;
+    height: auto;
+    max-height: 82px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ddd;
+    overflow: hidden;
+    margin-bottom: 5px !important;
+}
+.notifyContainer{
+    position: fixed;
+    max-height: 81px;
+}
+.top-right{
+    right: 5px !important;
+    top: 5px !important;
+}
+.top-left{
+    left: 5px !important;
+    top: 5px !important;
+}
+.bottom-right{
+    right: 5px !important;
+    bottom: 5px !important;
+}
+.bottom-left{
+    left: 5px !important;
+    bottom: 5px !important;
+}
+.top-center{
+     left:40% !important;
+     top:5px !important;
+ }
+.bottom-center{
+    left:40% !important;
+    bottom:5px !important;
+}
+.NotyHide{
+    display: none;
+}
+
+img.imgNoty {
+    float: left;
+    width: 85px;
+    height: auto;
+    border-right: 1px solid #eee;
+}
+
+article.articleNoty {
+    float: right;
+    padding: 1px 34px 0px;
+    width: 221px;
+}
+
+h2.titleNoty {
+    font-family: 'Lato', sans-serif;
+    margin: 1px 0 7px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50 !important;
+    margin-top: 5px;
+}
+
+p.bodyNoty {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.2;
+    color: #2c3e50 !important;
+}

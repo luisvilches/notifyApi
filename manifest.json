@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "notifications",
+  "description": "This extension will listen the the JS on the page and popup notifications",
+  "version": "0.1",
+
+  "permissions": [
+    "background","notifications"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://localhost:8080"],
+      "js": ["notifications.js"]
+    }
+  ]
+}
